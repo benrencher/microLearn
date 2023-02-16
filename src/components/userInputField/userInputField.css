@@ -1,0 +1,10 @@
+.UserInputField {
+  display: grid;
+  grid-template-columns: auto 180px;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.UserInputTitle {
+  text-align: right;
+}

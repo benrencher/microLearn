@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Helvetica Rounded;
+  src: url("./assets/helvetica_rounded.otf") format("opentype");
+}
+
 :root {
   --light-green: #606c38;
   --dark-green: #283618;
@@ -12,4 +17,21 @@
   background-color: var(--beige);
   height: 100vh;
   width: 100vw;
+  font-family: "Helvetica Rounded";
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 36pt;
+}
+
+h2 {
+  font-size: 24pt;
+}
+
+h3 {
+  font-size: 16pt;
 }
