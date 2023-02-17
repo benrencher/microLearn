@@ -11,6 +11,7 @@
   --dark-blue: #3652b2;
   --blue: #677b98;
   --red: #bc1212;
+  --grey: #e0e0e0;
 }
 
 .App {
@@ -34,4 +35,12 @@ h2 {
 
 h3 {
   font-size: 16pt;
+}
+
+input {
+  font-family: "Helvetica Rounded";
+}
+
+input[type="text"]:focus {
+  outline-color: var(--light-green);
 }

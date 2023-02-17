@@ -8,3 +8,13 @@
 .UserInputTitle {
   text-align: right;
 }
+
+.UserInputFieldInput {
+  background-color: var(--grey);
+  color: var(--light-green);
+  border: none;
+  height: 35px;
+  border-radius: 8px;
+  padding: 0px 8px;
+  font-size: 16px;
+}
