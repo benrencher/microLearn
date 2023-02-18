@@ -1,0 +1,25 @@
+.Quiz {
+  padding: 12px;
+}
+
+.QuizQuestionTitle {
+  color: var(--dark-blue);
+}
+
+.QuizTopicTitle {
+  color: var(--dark-blue);
+}
+
+.QuizTopic {
+  color: var(--dark-green);
+}
+
+.QuizDescriptionWrapper {
+  background-color: var(--grey);
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.RelatedResourcesTitle {
+  color: var(--dark-green);
+}

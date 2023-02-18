@@ -2,10 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
+import reportWebVitals from './reportWebVitals';
 import App from './App';
 import Login from './views/login/login.js';
-import reportWebVitals from './reportWebVitals';
 import CreateAccount from './views/createAccount/CreateAccount.js';
+import Quiz from './views/Quiz/Quiz.js';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: "/createAccount",
         element: <CreateAccount />
+      },
+      {
+        path: "/quiz",
+        element: <Quiz />
       }
     ]
   }
