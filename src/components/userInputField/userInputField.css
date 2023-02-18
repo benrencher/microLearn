@@ -1,6 +1,6 @@
 .UserInputField {
   display: grid;
-  grid-template-columns: auto 180px;
+  grid-template-columns: 110px 180px;
   column-gap: 20px;
   align-items: center;
 }

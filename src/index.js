@@ -5,6 +5,7 @@ import './index.css';
 import App from './App';
 import Login from './views/login/login.js';
 import reportWebVitals from './reportWebVitals';
+import CreateAccount from './views/createAccount/CreateAccount.js';
 
 const router = createBrowserRouter([
   {
@@ -16,8 +17,8 @@ const router = createBrowserRouter([
         element: <Login />
       },
       {
-        path: "test",
-        element: <div>testing</div>
+        path: "/createAccount",
+        element: <CreateAccount />
       }
     ]
   }

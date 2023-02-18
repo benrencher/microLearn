@@ -1,0 +1,19 @@
+.Button {
+  background-color: var(--grey);
+  color: var(--light-green);
+  border: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid var(--beige);
+}
+
+.Button:hover {
+  border: 2px solid var(--light-green);
+  cursor: pointer;
+}
+
+.Button:active {
+  background-color: white;
+}
