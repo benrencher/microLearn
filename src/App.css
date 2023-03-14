@@ -44,3 +44,9 @@ input {
 input[type="text"]:focus {
   outline-color: var(--light-green);
 }
+
+.greyBackground {
+  background-color: var(--grey);
+  padding: 12px;
+  border-radius: 8px;
+}

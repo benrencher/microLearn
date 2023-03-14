@@ -14,12 +14,6 @@
   color: var(--dark-green);
 }
 
-.QuizDescriptionWrapper {
-  background-color: var(--grey);
-  padding: 12px;
-  border-radius: 8px;
-}
-
 .RelatedResourcesTitle {
   color: var(--dark-green);
 }
