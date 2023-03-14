@@ -1,0 +1,29 @@
+.NavRoot {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+}
+
+.NavTitleGroup {
+  position: relative;
+}
+
+.NavSlideout {
+  transition: all linear 0.1s;
+  background-color: var(--blue);
+  width: 150px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: -150px;
+  padding: 20px;
+}
+
+.NavOptions {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
