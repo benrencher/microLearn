@@ -7,6 +7,7 @@ import App from './App';
 import Login from './views/login/login.js';
 import CreateAccount from './views/createAccount/CreateAccount.js';
 import Quiz from './views/Quiz/Quiz.js';
+import Questions from "./views/Questions/Questions.js";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: "/quiz",
         element: <Quiz />
+      },
+      {
+        path: "/questions",
+        element: <Questions />
       }
     ]
   }

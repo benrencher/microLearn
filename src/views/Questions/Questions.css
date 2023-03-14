@@ -1,0 +1,16 @@
+.QuestionsRoot {
+
+}
+
+.QuestionsTitleGroup {
+  height: 38px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  column-gap: 10px;
+}
+
+.QuestionsTitle {
+  color: var(--dark-green);
+  text-align: right;
+}

@@ -50,3 +50,7 @@ input[type="text"]:focus {
   padding: 12px;
   border-radius: 8px;
 }
+
+.standardPadding {
+  padding: 12px;
+}
